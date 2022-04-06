@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Yandex": "src/Yandex"
+            "Yandex\\": "src/Yandex/"
         }
     }
 }
