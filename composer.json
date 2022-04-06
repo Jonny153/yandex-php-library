@@ -1,0 +1,23 @@
+{
+    "name": "jonny153/yandex-php-library",
+    "description": "Yandex PHP library fork",
+    "keywords":["yandex","sdk"],
+    "type":"library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0|^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0",
+        "satooshi/php-coveralls": "~1.0",
+        "squizlabs/php_codesniffer": "~2.0",
+        "predis/predis": "^1.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Yandex": "src/",
+            "Yandex\\Tests": "tests/"
+        }
+    }
+}
